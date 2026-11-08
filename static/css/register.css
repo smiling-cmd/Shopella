@@ -1,0 +1,81 @@
+h1,
+.intro {
+    text-align: center;
+}
+
+form {
+    width: 90%;
+    max-width: 330px;
+    margin: 0 auto;
+    padding: 10px 15px 15px;
+    border: 1px solid #333;
+    box-sizing: border-box;
+}
+
+.form-group {
+    display: flex;
+    align-items: center;
+    padding: 6px 0;
+}
+
+.form-group label {
+    width: 110px;
+    flex-shrink: 0;
+    white-space: nowrap;
+}
+
+.form-group input[type="text"],
+.form-group input[type="email"],
+.form-group input[type="tel"] {
+    flex: 1;
+    min-width: 0;
+    padding: 3px;
+    border: 1px solid #767676;
+    border-radius: 2px;
+    box-sizing: border-box;
+}
+
+.form-group input[type="date"] {
+    flex: none;
+    border: 1px solid #767676;
+    border-radius: 2px;
+}
+
+/* Yellow highlight on every required field, including the radios */
+input:required {
+    border: 1px solid #cc0;
+    box-shadow: 0 0 4px 2px #ff6;
+    outline: none;
+}
+
+fieldset {
+    margin: 10px 8px;
+    padding: 4px 10px;
+    border: 1px solid #aaa;
+}
+
+fieldset input[type="radio"] {
+    margin: 2px 6px 2px 0;
+}
+
+.comment-group {
+    margin: 10px 0;
+}
+
+.comment-group label {
+    display: block;
+    margin-bottom: 4px;
+}
+
+.comment-group textarea {
+    width: 100%;
+    box-sizing: border-box;
+    border: 1px solid #767676;
+    border-radius: 2px;
+}
+
+button {
+    font-size: 13px;
+    padding: 2px 6px;
+    cursor: pointer;
+}

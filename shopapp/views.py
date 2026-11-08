@@ -12,3 +12,6 @@ def index(request):
 
 def services(request):
     return render(request, 'services.html')
+
+def register(request):
+    return render(request, 'register.html')
